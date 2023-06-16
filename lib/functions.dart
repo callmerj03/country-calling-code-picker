@@ -116,18 +116,10 @@ Future<Country?> showCountryPickerDialog(
                 SizedBox(height: 16),
                 Stack(
                   children: <Widget>[
-                    Positioned(
-                      right: 8,
-                      top: 4,
-                      bottom: 0,
-                      child: TextButton(
-                          child: Text('Cancel'),
-                          onPressed: () => Navigator.pop(context)),
-                    ),
                     Center(
                       child: title ??
                           Text(
-                            'Choose region',
+                            'Select Country',
                             textAlign: TextAlign.center,
                             style: TextStyle(
                               fontSize: 25,
